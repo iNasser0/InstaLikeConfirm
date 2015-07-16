@@ -42,7 +42,7 @@
         %orig;
         return;
     }
-    else if (enabled2) {
+    else {
    
         int time;
         
