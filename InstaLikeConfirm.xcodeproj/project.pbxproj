@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDCADB0F1B572F1000261840 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCADB0E1B572F1000261840 /* Foundation.framework */; };
+		CDCADB1A1B572F1000261840 /* InstaLikeConfirm.mm in Sources */ = {isa = PBXBuildFile; fileRef = CDCADB191B572F1000261840 /* InstaLikeConfirm.mm */; };
+		CDCADB251B572F3500261840 /* libsubstrate.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCADB241B572F3500261840 /* libsubstrate.dylib */; };
+		CDCADB271B572FC700261840 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDCADB261B572FC700261840 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CDCADB0B1B572F1000261840 /* InstaLikeConfirm.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = InstaLikeConfirm.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCADB0E1B572F1000261840 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CDCADB131B572F1000261840 /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = control.txt; path = Package/DEBIAN/control.txt; sourceTree = "<group>"; };
+		CDCADB141B572F1000261840 /* control */ = {isa = PBXFileReference; lastKnownFileType = text; name = control; path = Package/DEBIAN/control; sourceTree = "<group>"; };
+		CDCADB161B572F1000261840 /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		CDCADB171B572F1000261840 /* InstaLikeConfirm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InstaLikeConfirm-Prefix.pch"; sourceTree = "<group>"; };
+		CDCADB181B572F1000261840 /* InstaLikeConfirm.xm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InstaLikeConfirm.xm; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		CDCADB191B572F1000261840 /* InstaLikeConfirm.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = InstaLikeConfirm.mm; sourceTree = "<group>"; };
+		CDCADB1E1B572F1000261840 /* InstaLikeConfirm.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = InstaLikeConfirm.plist; path = Package/Library/MobileSubstrate/DynamicLibraries/InstaLikeConfirm.plist; sourceTree = "<group>"; };
+		CDCADB241B572F3500261840 /* libsubstrate.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsubstrate.dylib; path = ../../../../opt/iOSOpenDev/lib/libsubstrate.dylib; sourceTree = "<group>"; };
+		CDCADB261B572FC700261840 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDCADB071B572F1000261840 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCADB271B572FC700261840 /* UIKit.framework in Frameworks */,
+				CDCADB251B572F3500261840 /* libsubstrate.dylib in Frameworks */,
+				CDCADB0F1B572F1000261840 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDCADB001B572F1000261840 = {
+			isa = PBXGroup;
+			children = (
+				CDCADB101B572F1000261840 /* InstaLikeConfirm */,
+				CDCADB0D1B572F1000261840 /* Frameworks */,
+				CDCADB0C1B572F1000261840 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDCADB0C1B572F1000261840 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB0B1B572F1000261840 /* InstaLikeConfirm.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCADB0D1B572F1000261840 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB261B572FC700261840 /* UIKit.framework */,
+				CDCADB241B572F3500261840 /* libsubstrate.dylib */,
+				CDCADB0E1B572F1000261840 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDCADB101B572F1000261840 /* InstaLikeConfirm */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB181B572F1000261840 /* InstaLikeConfirm.xm */,
+				CDCADB191B572F1000261840 /* InstaLikeConfirm.mm */,
+				CDCADB111B572F1000261840 /* Package */,
+				CDCADB151B572F1000261840 /* Supporting Files */,
+			);
+			path = InstaLikeConfirm;
+			sourceTree = "<group>";
+		};
+		CDCADB111B572F1000261840 /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB121B572F1000261840 /* DEBIAN */,
+				CDCADB1B1B572F1000261840 /* Library */,
+			);
+			name = Package;
+			sourceTree = "<group>";
+		};
+		CDCADB121B572F1000261840 /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB131B572F1000261840 /* control.txt */,
+				CDCADB141B572F1000261840 /* control */,
+			);
+			name = DEBIAN;
+			sourceTree = "<group>";
+		};
+		CDCADB151B572F1000261840 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB161B572F1000261840 /* PackageVersion.plist */,
+				CDCADB171B572F1000261840 /* InstaLikeConfirm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDCADB1B1B572F1000261840 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB1C1B572F1000261840 /* MobileSubstrate */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		CDCADB1C1B572F1000261840 /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB1D1B572F1000261840 /* DynamicLibraries */,
+			);
+			name = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		CDCADB1D1B572F1000261840 /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				CDCADB1E1B572F1000261840 /* InstaLikeConfirm.plist */,
+			);
+			name = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		CDCADB081B572F1000261840 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CDCADB0A1B572F1000261840 /* InstaLikeConfirm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCADB211B572F1000261840 /* Build configuration list for PBXNativeTarget "InstaLikeConfirm" */;
+			buildPhases = (
+				CDCADB051B572F1000261840 /* ShellScript */,
+				CDCADB061B572F1000261840 /* Sources */,
+				CDCADB071B572F1000261840 /* Frameworks */,
+				CDCADB081B572F1000261840 /* Headers */,
+				CDCADB091B572F1000261840 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaLikeConfirm;
+			productName = InstaLikeConfirm;
+			productReference = CDCADB0B1B572F1000261840 /* InstaLikeConfirm.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDCADB011B572F1000261840 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				TargetAttributes = {
+					CDCADB0A1B572F1000261840 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = CDCADB041B572F1000261840 /* Build configuration list for PBXProject "InstaLikeConfirm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDCADB001B572F1000261840;
+			productRefGroup = CDCADB0C1B572F1000261840 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDCADB0A1B572F1000261840 /* InstaLikeConfirm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CDCADB051B572F1000261840 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp-logos";
+		};
+		CDCADB091B572F1000261840 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDCADB061B572F1000261840 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCADB1A1B572F1000261840 /* InstaLikeConfirm.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDCADB1F1B572F1000261840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		CDCADB201B572F1000261840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		CDCADB221B572F1000261840 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaLikeConfirm/InstaLikeConfirm-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		CDCADB231B572F1000261840 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "InstaLikeConfirm/InstaLikeConfirm-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/opt/iOSOpenDev/lib,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDCADB041B572F1000261840 /* Build configuration list for PBXProject "InstaLikeConfirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCADB1F1B572F1000261840 /* Debug */,
+				CDCADB201B572F1000261840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCADB211B572F1000261840 /* Build configuration list for PBXNativeTarget "InstaLikeConfirm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCADB221B572F1000261840 /* Debug */,
+				CDCADB231B572F1000261840 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDCADB011B572F1000261840 /* Project object */;
+}

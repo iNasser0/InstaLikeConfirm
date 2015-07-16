@@ -1,0 +1,10 @@
+{
+    entry = {
+	bundle = InstaLikeConfirm;
+	cell = PSLinkCell;
+	detail = InstaLikeConfirmListController;
+	icon = InstaLikeConfirm.png;
+	isController = 1;
+	label = InstaLikeConfirm;
+    };
+}
